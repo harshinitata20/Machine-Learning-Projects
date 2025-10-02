@@ -25,6 +25,29 @@ This repository contains a curated collection of **machine learning projects** t
 
 ## 📊 **Projects**
 
+### 🩺 [Diabetes Prediction System](./3)Diabetes_Prediction.ipynb)
+
+**Machine learning classification model for early diabetes detection**
+
+- **🎯 Problem**: Early detection and prevention of diabetes through predictive modeling
+- **🔧 Technology Stack**: Scikit-learn, Pandas, NumPy, Matplotlib, Jupyter
+- **📈 Impact**: Healthcare decision support for early intervention
+- **🚀 Features**:
+  - Binary classification for diabetes risk assessment
+  - Feature engineering and data preprocessing
+  - Model evaluation with multiple ML algorithms
+  - Statistical analysis and visualization
+
+**Key Technical Achievements:**
+- Comprehensive exploratory data analysis
+- Multiple algorithm comparison (Logistic Regression, Random Forest, SVM)
+- Feature importance analysis and selection
+- Cross-validation and performance metrics evaluation
+
+[📁 View Project →](./3)Diabetes_Prediction.ipynb) | [📊 Dataset](#) | [📈 Results](#)
+
+---
+
 ### 🍎 [Smart Food Expiry Detection & Reduction System](./Smart-Food-Expiry-Detection/)
 
 **AI-powered solution to reduce food waste through intelligent detection and predictive analytics**
@@ -76,7 +99,7 @@ This repository contains a curated collection of **machine learning projects** t
 
 | Metric | Value |
 |--------|--------|
-| **Total Projects** | 1+ (Growing) |
+| **Total Projects** | 2+ (Growing) |
 | **Programming Languages** | Python, SQL, Bash |
 | **ML Frameworks Used** | PyTorch, Scikit-learn, Prophet |
 | **Deployment Ready** | 100% Containerized |
