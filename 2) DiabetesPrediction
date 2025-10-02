@@ -1,0 +1,10 @@
+diabetes-prediction/
+│── README.md                     # Full project description
+│── requirements.txt              # Libraries used
+│── notebooks/
+│   └── diabetes_prediction.ipynb # Your Colab notebook
+│── data/
+│   └── diabetes.csv              # Dataset (if allowed, else link in README)
+│── results/
+│   ├── metrics.txt               # Accuracy, precision, recall, etc.
+│   └── confusion_matrix.png      # Visualization
