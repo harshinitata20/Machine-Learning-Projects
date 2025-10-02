@@ -1,152 +1,69 @@
-# House Price Prediction
+# 🤖 Machine Learning and Deep Learning Projects Portfolio
 
-A machine learning project to predict house prices based on various features such as area, number of rooms, location, and other property characteristics.
+[![GitHub](https://img.shields.io/badge/GitHub-harshinitata20-blue.svg)](https://github.com/harshinitata20)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![Machine Learning](https://img.shields.io/badge/ML-Computer%20Vision%20%7C%20NLP%20%7C%20Time%20Series-green.svg)](#projects)
+[![Deep Learning](https://img.shields.io/badge/Deep%20Learning-PyTorch%20%7C%20TensorFlow-red.svg)](#projects)
 
-## 🎯 Project Objectives
+> *A comprehensive collection of machine learning and AI projects showcasing expertise across computer vision, natural language processing, time series forecasting, and predictive analytics.*
 
-- Build accurate regression models to predict house prices
-- Perform comprehensive exploratory data analysis (EDA)
-- Compare multiple machine learning algorithms
-- Create a production-ready model with proper preprocessing pipeline
-- Provide tools for making predictions on new data
+---
 
-## 📊 Dataset Information
+## 🎯 **Portfolio Overview**
 
-The project uses house price data with features including:
-- **Area**: Square footage of the house
-- **Bedrooms**: Number of bedrooms
-- **Bathrooms**: Number of bathrooms
-- **Stories**: Number of stories
-- **Parking**: Number of parking spaces
-- **Location features**: Mainroad access, guestroom, basement, hot water heating, air conditioning
-- **Furnishing status**: Furnished, semi-furnished, or unfurnished
+This repository contains a curated collection of **machine learning projects** that demonstrate practical applications of AI technologies to solve real-world problems. Each project includes complete implementation, documentation, and deployment-ready code.
 
-## 🏗️ Project Structure
+## 📁 **Projects**
 
-```
-Machine-Learning-Projects/
-├── data/
-│   └── house_data.csv          # Dataset
-├── notebooks/
-│   └── House_Prediction.ipynb  # Jupyter notebook for exploration and experimentation
-├── src/
-│   ├── data_preprocessing.py   # Data cleaning and preprocessing
-│   ├── feature_engineering.py  # Feature engineering utilities
-│   ├── model_training.py       # Model training and evaluation
-│   ├── evaluation.py          # Model evaluation metrics
-│   └── utils.py               # Utility functions
-├── models/
-│   └── best_model.joblib      # Saved trained model
-├── predict.py                 # Script for making predictions
-├── requirements.txt           # Project dependencies
-└── README.md                  # Project documentation
-```
+### 🏠 [House Price Prediction](./House-Price-Prediction/)
 
-## 🚀 Getting Started
+A comprehensive machine learning project to predict house prices based on various features such as area, number of rooms, location, and other property characteristics.
+
+**Key Features:**
+- 🔍 **Comprehensive EDA**: Correlation analysis, distribution plots, and feature relationships
+- 🤖 **Multiple ML Models**: Linear, Ridge, Lasso, Random Forest, Gradient Boosting, XGBoost
+- � **Performance Metrics**: RMSE, MAE, R² Score evaluation
+- 🛠️ **Production Ready**: Clean, modular code structure with preprocessing pipeline
+- 📈 **Best Model**: Lasso Regression achieving R² = 0.7416
+
+**Tech Stack:** Python, Scikit-learn, XGBoost, Pandas, NumPy, Matplotlib, Seaborn, Jupyter
+
+**[View Project →](./House-Price-Prediction/)**
+
+---
+
+## 🛠️ **Technologies & Tools**
+
+<div align="center">
+
+| **Category** | **Technologies** |
+|--------------|------------------|
+| **Languages** | Python, R, SQL |
+| **ML/DL Frameworks** | Scikit-learn, XGBoost, PyTorch, TensorFlow |
+| **Data Processing** | Pandas, NumPy, Polars |
+| **Visualization** | Matplotlib, Seaborn, Plotly |
+| **Deployment** | Docker, Flask, FastAPI |
+| **Cloud Platforms** | AWS, GCP, Azure |
+
+</div>
+
+## 🚀 **Getting Started**
 
 ### Prerequisites
-
 - Python 3.8 or higher
-- pip package manager
+- Git
 
-### Installation
+### Quick Setup
 
-1. Clone the repository:
+1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/Machine-Learning-Projects.git
+git clone https://github.com/harshinitata20/Machine-Learning-Projects.git
 cd Machine-Learning-Projects
 ```
 
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+2. **Navigate to any project folder and follow its specific README instructions**
 
-### Usage
-
-#### Training the Model
-
-1. **Run the Jupyter notebook** for exploratory analysis:
-```bash
-jupyter notebook notebooks/House_Prediction.ipynb
-```
-
-2. **Train models using the script**:
-```bash
-python src/model_training.py
-```
-
-#### Making Predictions
-
-Use the prediction script to predict house prices:
-```bash
-python predict.py
-```
-
-Or import in your code:
-```python
-from predict import predict_house_price
-
-# Example usage
-features = {
-    'area': 7420,
-    'bedrooms': 4,
-    'bathrooms': 1,
-    'stories': 3,
-    'parking': 2,
-    'mainroad': 'yes',
-    'guestroom': 'no',
-    'basement': 'no',
-    'hotwaterheating': 'no',
-    'airconditioning': 'yes',
-    'furnishingstatus': 'furnished'
-}
-
-predicted_price = predict_house_price(features)
-print(f"Predicted price: ${predicted_price:,.2f}")
-```
-
-## 🤖 Models Implemented
-
-- **Linear Regression**: Baseline model
-- **Ridge Regression**: L2 regularization
-- **Lasso Regression**: L1 regularization
-- **Random Forest**: Ensemble method
-- **Gradient Boosting**: Boosting ensemble
-- **XGBoost**: Advanced gradient boosting
-
-## 📈 Model Performance
-
-The models are evaluated using:
-- **RMSE (Root Mean Square Error)**: Measures prediction accuracy
-- **MAE (Mean Absolute Error)**: Average absolute prediction error
-- **R² Score**: Coefficient of determination
-
-## 📋 Workflow
-
-1. **Data Loading & Exploration**: Understanding the dataset structure and characteristics
-2. **Data Preprocessing**: Handling missing values, outliers, and categorical variables
-3. **Feature Engineering**: Creating new features and scaling
-4. **Model Training**: Training multiple regression algorithms
-5. **Model Evaluation**: Comparing performance metrics
-6. **Model Selection**: Choosing the best performing model
-7. **Model Saving**: Persisting the trained model for future use
-
-## 🔧 Features
-
-- **Robust Preprocessing Pipeline**: Handles missing values, outliers, and categorical encoding
-- **Comprehensive EDA**: Correlation analysis, distribution plots, and feature relationships
-- **Multiple Model Comparison**: Systematic evaluation of different algorithms
-- **Production Ready**: Clean, modular code structure
-- **Easy Prediction Interface**: Simple script for making new predictions
-
-## 📊 Key Insights
-
-- Feature importance analysis reveals the most significant predictors
-- Correlation heatmap shows relationships between variables
-- Model comparison helps identify the best algorithm for the dataset
-
-## 🤝 Contributing
+## 🤝 **Contributing**
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -154,12 +71,20 @@ The models are evaluated using:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## 📄 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact
+## 📞 **Contact**
 
-Your Name - your.email@example.com
+Harshini - [GitHub Profile](https://github.com/harshinitata20)
 
-Project Link: https://github.com/your-username/Machine-Learning-Projects
+Project Link: [https://github.com/harshinitata20/Machine-Learning-Projects](https://github.com/harshinitata20/Machine-Learning-Projects)
+
+---
+
+<div align="center">
+
+**⭐ Star this repository if you find it helpful!**
+
+</div>
